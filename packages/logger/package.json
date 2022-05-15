@@ -1,6 +1,9 @@
 {
   "name": "@ntnyq/logger",
   "version": "0.0.1",
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "",
   "keywords": [],
   "license": "MIT",
