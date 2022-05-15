@@ -1,0 +1,54 @@
+{
+  "name": "@ntnyq/utils",
+  "version": "0.0.0",
+  "private": true,
+  "packageManager": "pnpm@7.1.0",
+  "keywords": [],
+  "license": "MIT",
+  "author": {
+    "name": "ntnyq",
+    "email": "ntnyq13@gmail.com"
+  },
+  "scripts": {
+    "clean": "pnpm -r --parallel run clean",
+    "build": "pnpm -r --stream run build",
+    "dev": "pnpm -r --stream run dev",
+    "lint": "eslint .",
+    "prepublishOnly": "pnpm run build",
+    "play": "pnpm --filter=playground run play",
+    "test": "vitest --passWithNoTests",
+    "prepare": "husky install",
+    "typecheck": "pnpm -r --parallel run typecheck",
+    "release": "run-s release:check release:version release:publish",
+    "release:changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
+    "release:check": "run-s lint typecheck clean build",
+    "release:publish": "pnpm -r publish",
+    "release:version": "bumpp package.json packages/*/package.json --execute=\"pnpm release:changelog\" --commit \"chore: release v%s\" --all --tag --push"
+  },
+  "devDependencies": {
+    "@ntnyq/eslint-config-typescript": "^1.0.0",
+    "@types/node": "^17.0.33",
+    "bumpp": "^7.1.1",
+    "conventional-changelog-cli": "^2.2.2",
+    "eslint": "^8.15.0",
+    "esno": "^0.15.0",
+    "fs-extra": "^10.1.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^12.4.1",
+    "npm-run-all": "^4.1.5",
+    "picocolors": "^1.0.0",
+    "pnpm": "^7.1.0",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.6.4",
+    "unbuild": "^0.7.4",
+    "vite": "^2.9.9",
+    "vitest": "^0.12.6"
+  },
+  "lint-staged": {
+    "*.{js,ts,json,md,yml,yaml}": "eslint --fix"
+  },
+  "eslintConfig": {
+    "extends": "@ntnyq/typescript",
+    "root": true
+  }
+}
