@@ -50,6 +50,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "dayjs": "^1.11.2",
     "picocolors": "^1.0.0"
   }
 }

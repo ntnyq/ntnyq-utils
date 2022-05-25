@@ -1,4 +1,5 @@
 import c from 'picocolors'
+import dayjs from 'dayjs'
 import { resolveOptions } from './resolveOptions'
 import type { LogColorMap, Logger, LoggerOptions } from './types'
 
@@ -35,6 +36,7 @@ export const createLogger = (options?: Partial<LoggerOptions>): Logger => {
       const content: string[] = []
 
       if (opts.prefix) content.push(opts.prefix)
+      if (opts.time) content.push(c.magenta(dayjs().format(opts.time as string)))
       if (opts.type) {
         content.push(c[typeColor](typeName))
         content.push(msg)

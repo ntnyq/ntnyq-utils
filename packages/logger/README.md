@@ -5,7 +5,7 @@
 ## Install
 
 ```bash
-$ pnpm add @ntnyq/logger -D
+$ pnpm add @ntnyq/logger picocolors dayjs -D
 ```
 
 ## Usage
@@ -45,6 +45,7 @@ logger.error(`error message`)
 log prefix
 
 **type**: `string`
+
 **default**: ``
 
 ### `type`
@@ -52,6 +53,7 @@ log prefix
 show log type: `debug`, `info`, `success`, `warn`, `error`
 
 **type**: `boolean`
+
 **default**: `true`
 
 ### `mode`
@@ -59,6 +61,7 @@ show log type: `debug`, `info`, `success`, `warn`, `error`
 if `prod`, `debug` message will not be shown
 
 **type**: `dev | prod`
+
 **default**: `dev`
 
 ### `enable`
@@ -66,4 +69,17 @@ if `prod`, `debug` message will not be shown
 set `false` to disable all log
 
 **type**: `boolean`
+
 **default**: `true`
+
+### `time`
+
+set `string` for time format.
+
+set `false` to disable time.
+
+set `true` to enable time with format `YYYY-MM-DD HH:mm:ss`.
+
+**type**: `string | boolean`
+
+**default**: `false`

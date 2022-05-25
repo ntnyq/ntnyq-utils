@@ -4,17 +4,21 @@ const loggerWithoutType = createLogger({ type: false })
 
 const loggerWithPrefix = createLogger({ prefix: `prefix` })
 
+const loggerWithTime = createLogger({ time: true })
+
+const loggerWithFormat = createLogger({ time: `HH:mm:ss` })
+
 const disabledLogger = createLogger({ enable: false })
 
 const loggerInProdMode = createLogger({ mode: `prod` })
 
 function createLoggerGroup (group: string, fn?: () => void) {
   console.log()
-  console.log(`Group start: ${group}`)
+  console.log(`============ Group start: ${group} ============`)
   console.log()
   fn?.()
   console.log()
-  console.log(`Group end: ${group}`)
+  console.log(`============ Group end: ${group} ============`)
   console.log()
 }
 
@@ -41,6 +45,22 @@ export function playLogger () {
     loggerWithPrefix.info(`info`)
     loggerWithPrefix.warn(`warn`)
     loggerWithPrefix.error(`error`)
+  })
+
+  createLoggerGroup(`logger with time`, () => {
+    loggerWithTime.debug(`debug`)
+    loggerWithTime.success(`success`)
+    loggerWithTime.info(`info`)
+    loggerWithTime.warn(`warn`)
+    loggerWithTime.error(`error`)
+  })
+
+  createLoggerGroup(`logger with time format`, () => {
+    loggerWithFormat.debug(`debug`)
+    loggerWithFormat.success(`success`)
+    loggerWithFormat.info(`info`)
+    loggerWithFormat.warn(`warn`)
+    loggerWithFormat.error(`error`)
   })
 
   createLoggerGroup(`disabled logger`, () => {
