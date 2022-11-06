@@ -1,0 +1,4 @@
+{
+  "extends": "@ntnyq/typescript",
+  "root": true
+}
