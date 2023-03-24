@@ -1,2 +1,3 @@
-export const camelCase = (input: string) =>
-  input.replace(/[._-](\w)/g, (_, c) => (c ? c.toUpperCase() : ''))
+export function camelCase(input: string) {
+  return input.replace(/[._-](\w)/g, (_, c) => (c ? c.toUpperCase() : ''))
+}

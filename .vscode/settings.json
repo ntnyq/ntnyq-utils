@@ -14,7 +14,16 @@
     "javascriptreact",
     "typescriptreact"
   ],
-  "cSpell.words": ["bumpp", "changelogithub", "pnpm", "pnpx", "tsbuildinfo", "vite", "vitest"],
+  "cSpell.words": [
+    "bumpp",
+    "changelogithub",
+    "kekab",
+    "pnpm",
+    "pnpx",
+    "tsbuildinfo",
+    "vite",
+    "vitest"
+  ],
   "[typescript]": {
     "editor.formatOnSave": false
   }

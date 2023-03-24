@@ -1,5 +1,6 @@
-export const kekabCase = (input: string) =>
-  input
+export function kekabCase(input: string) {
+  return input
     .replace(/([a-z])([A-Z])/g, '$1-$2')
     .replace(/[\s_]+/g, '-')
     .toLowerCase()
+}
