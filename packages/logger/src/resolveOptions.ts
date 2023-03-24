@@ -1,15 +1,15 @@
 import type { LoggerOptions, Mode } from './types'
 
 const defaultOptions = {
-  prefix: ``,
+  prefix: '',
   type: true,
   enable: true,
-  mode: `dev` as Mode,
+  mode: 'dev' as Mode,
   time: false,
 }
-const defaultTimeFormat = `YYYY-MM-DD HH:mm:ss`
+const defaultTimeFormat = 'YYYY-MM-DD HH:mm:ss'
 
-export function resolveOptions (options?: Partial<LoggerOptions>): LoggerOptions {
+export function resolveOptions(options?: Partial<LoggerOptions>): LoggerOptions {
   if (options?.time === true) {
     options.time = defaultTimeFormat
   }

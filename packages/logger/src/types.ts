@@ -1,9 +1,8 @@
+export type Mode = 'dev' | 'prod'
 
-export type Mode = `dev`|`prod`
+export type LogType = 'success' | 'warn' | 'error' | 'info' | 'debug'
 
-export type LogType = `success` | `warn` | `error` | `info` | `debug`
-
-export type LogColor = `green` | `yellow` | `red` | `blue` | `magenta` | `cyan` | `white`
+export type LogColor = 'green' | 'yellow' | 'red' | 'blue' | 'magenta' | 'cyan' | 'white'
 
 export type LogColorMap = Record<LogType, LogColor>
 

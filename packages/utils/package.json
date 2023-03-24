@@ -1,6 +1,6 @@
 {
-  "name": "@ntnyq/logger",
-  "version": "0.0.2",
+  "name": "@ntnyq/utils",
+  "version": "0.0.0",
   "publishConfig": {
     "access": "public"
   },
@@ -15,7 +15,7 @@
   "repository": {
     "type": "git",
     "url": "ntnyq/ntnyq-utils",
-    "directory": "packages/logger"
+    "directory": "packages/utils"
   },
   "exports": {
     ".": {
@@ -46,9 +46,5 @@
   "scripts": {
     "build": "unbuild",
     "dev": "unbuild --stub"
-  },
-  "dependencies": {
-    "dayjs": "^1.11.7",
-    "picocolors": "^1.0.0"
   }
 }

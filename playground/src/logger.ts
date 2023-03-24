@@ -12,7 +12,7 @@ const disabledLogger = createLogger({ enable: false })
 
 const loggerInProdMode = createLogger({ mode: `prod` })
 
-function createLoggerGroup (group: string, fn?: () => void) {
+function createLoggerGroup(group: string, fn?: () => void) {
   console.log()
   console.log(`============ Group start: ${group} ============`)
   console.log()
@@ -22,7 +22,7 @@ function createLoggerGroup (group: string, fn?: () => void) {
   console.log()
 }
 
-export function playLogger () {
+export function playLogger() {
   createLoggerGroup(`default logger`, () => {
     logger.debug(`debug`)
     logger.success(`success`)
