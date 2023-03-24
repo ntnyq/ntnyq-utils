@@ -12,8 +12,8 @@
     "play": "pnpm -C playground run play",
     "prepare": "husky install",
     "publish": "pnpm build && changeset publish",
-    "test": "vitest --passWithNoTests",
-    "typecheck": "tsc --noEmit"
+    "test": "vitest",
+    "typecheck": "vitest typecheck"
   },
   "devDependencies": {
     "@changesets/changelog-github": "^0.4.8",
