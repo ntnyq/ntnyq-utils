@@ -8,6 +8,12 @@
 pnpm add @ntnyq/utils -D
 ```
 
+## Utils
+
+- [camelCase](./src/camelCase.ts)
+- [capitalize](./src/capitalize.ts)
+- [kekabCase](./src/kekabCase.ts)
+
 ## License
 
 [MIT](./LICENSE) License © 2022-PRESENT [ntnyq](https://github.com/ntnyq)
