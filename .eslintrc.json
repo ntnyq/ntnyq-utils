@@ -1,4 +1,4 @@
 {
-  "extends": ["@ntnyq"],
-  "root": true
+  "root": true,
+  "extends": ["@ntnyq"]
 }
