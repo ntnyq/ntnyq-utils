@@ -1,10 +1,10 @@
-import type { LoggerOptions, Mode } from './types'
+import type { LoggerOptions } from './types'
 
-const defaultOptions = {
+const defaultOptions: LoggerOptions = {
   prefix: '',
   type: true,
   enable: true,
-  mode: 'dev' as Mode,
+  mode: 'dev',
   time: false,
 }
 const defaultTimeFormat = 'YYYY-MM-DD HH:mm:ss'
