@@ -14,6 +14,8 @@ pnpm add @ntnyq/utils -D
 - [capitalize](./src/capitalize.ts)
 - [kekabCase](./src/kekabCase.ts)
 
+- [waitFor](./src/waitFor.ts)
+
 ## License
 
 [MIT](./LICENSE) License © 2022-PRESENT [ntnyq](https://github.com/ntnyq)
