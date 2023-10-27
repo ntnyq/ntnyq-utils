@@ -8,6 +8,8 @@ Utils for ntnyq.
 
 - [logger](./packages/logger)
 - [utils](./packages/utils)
+- [storage](./packages/storage)
+- [types](./packages/types)
 
 ## License
 
