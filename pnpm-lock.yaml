@@ -75,7 +75,15 @@ importers:
         specifier: ^1.0.0
         version: 1.0.0
 
-  packages/utils: {}
+  packages/storage: {}
+
+  packages/types: {}
+
+  packages/utils:
+    dependencies:
+      '@ntnyq/types':
+        specifier: workspace:*
+        version: link:../types
 
   playground:
     dependencies:

@@ -8,5 +8,3 @@ export * from './toArray'
 export * from './env'
 
 export * from './raf'
-
-export * from './types'

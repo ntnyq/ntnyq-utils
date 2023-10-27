@@ -1,4 +1,4 @@
-import type { Arrayable, Nullable } from './types'
+import type { Arrayable, Nullable } from '@ntnyq/types'
 
 export function toArray<T>(val?: Nullable<Arrayable<T>>): Arrayable<T> {
   val = val ?? []
