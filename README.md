@@ -11,6 +11,8 @@ Utils for ntnyq.
 - [storage](./packages/storage)
 - [types](./packages/types)
 
+- [element-validators](./packages/element-validators)
+
 ## License
 
 [MIT](./LICENSE) License © 2022-PRESENT [ntnyq](https://github.com/ntnyq)
