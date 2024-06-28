@@ -56,6 +56,6 @@
     "@ntnyq/types": "workspace:*"
   },
   "devDependencies": {
-    "element-plus": "^2.6.3"
+    "element-plus": "^2.7.6"
   }
 }
