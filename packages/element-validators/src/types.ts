@@ -22,3 +22,8 @@ export interface CommonRuleOptions {
    */
   message?: string
 }
+
+/**
+ * Creator Options
+ */
+export interface Options {}
