@@ -1,5 +1,5 @@
-import { createStorage as create } from './storage'
 import { resolveOptions } from './options'
+import { createStorage as create } from './storage'
 import type { Options } from './types'
 
 export const WebStorage = create(resolveOptions(sessionStorage))

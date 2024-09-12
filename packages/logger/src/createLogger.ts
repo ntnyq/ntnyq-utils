@@ -1,5 +1,5 @@
-import c from 'picocolors'
 import dayjs from 'dayjs'
+import c from 'picocolors'
 import { resolveOptions } from './resolveOptions'
 import type { LogColorMap, Logger, LoggerOptions } from './types'
 

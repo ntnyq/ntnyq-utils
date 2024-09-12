@@ -1,5 +1,5 @@
-import c from 'picocolors'
 import dayjs from 'dayjs'
+import c from 'picocolors'
 import { createLogger } from './createLogger'
 
 export { c, dayjs }

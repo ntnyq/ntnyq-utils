@@ -4,7 +4,7 @@
 
 import type { Arrayable } from '@ntnyq/types'
 
-export type { FormRules, FormItemRule } from 'element-plus'
+export type { FormItemRule, FormRules } from 'element-plus'
 
 export type Trigger = 'blur' | 'change'
 
