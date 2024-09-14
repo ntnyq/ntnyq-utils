@@ -2,7 +2,7 @@
  * @file types
  */
 
-import type { Arrayable } from '@ntnyq/types'
+import type { Arrayable } from '@ntnyq/utils'
 
 export type { FormItemRule, FormRules } from 'element-plus'
 
