@@ -7,10 +7,8 @@ Utils for ntnyq.
 ## packages
 
 - [logger](./packages/logger)
-- [utils](./packages/utils)
 - [storage](./packages/storage)
 - [types](./packages/types)
-
 - [element-validators](./packages/element-validators)
 
 ## License
