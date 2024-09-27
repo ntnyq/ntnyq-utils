@@ -53,9 +53,9 @@
     "dev": "unbuild --stub"
   },
   "dependencies": {
-    "@ntnyq/utils": "^0.1.0"
+    "@ntnyq/utils": "^0.1.1"
   },
   "devDependencies": {
-    "element-plus": "^2.8.3"
+    "element-plus": "^2.8.4"
   }
 }
