@@ -1,9 +1,6 @@
 {
   "name": "@ntnyq/element-validators",
   "version": "0.0.2",
-  "publishConfig": {
-    "access": "public"
-  },
   "description": "",
   "keywords": [],
   "license": "MIT",
@@ -16,6 +13,9 @@
     "type": "git",
     "url": "ntnyq/ntnyq-utils",
     "directory": "packages/element-validators"
+  },
+  "bugs": {
+    "url": "https://github.com/ntnyq/ntnyq-utils/issues"
   },
   "exports": {
     "./package.json": "./package.json",
@@ -44,18 +44,18 @@
   "files": [
     "dist"
   ],
-  "sideEffects": false,
-  "bugs": {
-    "url": "https://github.com/ntnyq/ntnyq-utils/issues"
+  "publishConfig": {
+    "access": "public"
   },
+  "sideEffects": false,
   "scripts": {
     "build": "unbuild",
     "dev": "unbuild --stub"
   },
   "dependencies": {
-    "@ntnyq/utils": "^0.2.0"
+    "@ntnyq/utils": "^0.3.1"
   },
   "devDependencies": {
-    "element-plus": "^2.8.6"
+    "element-plus": "^2.8.8"
   }
 }

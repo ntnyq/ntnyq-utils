@@ -1,9 +1,6 @@
 {
   "name": "@ntnyq/storage",
   "version": "0.0.2",
-  "publishConfig": {
-    "access": "public"
-  },
   "description": "",
   "keywords": [],
   "license": "MIT",
@@ -16,6 +13,9 @@
     "type": "git",
     "url": "ntnyq/ntnyq-utils",
     "directory": "packages/storage"
+  },
+  "bugs": {
+    "url": "https://github.com/ntnyq/ntnyq-utils/issues"
   },
   "exports": {
     "./package.json": "./package.json",
@@ -44,10 +44,10 @@
   "files": [
     "dist"
   ],
-  "sideEffects": false,
-  "bugs": {
-    "url": "https://github.com/ntnyq/ntnyq-utils/issues"
+  "publishConfig": {
+    "access": "public"
   },
+  "sideEffects": false,
   "scripts": {
     "build": "unbuild",
     "dev": "unbuild --stub"
