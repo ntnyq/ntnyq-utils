@@ -6,7 +6,7 @@ import type { FormRules } from './types'
 
 /**
  * `defineFormRules` helpers
- * @param rules form rules
+ * @param rules - form rules
  * @returns form rules
  */
 export function defineFormRules(rules: FormRules) {

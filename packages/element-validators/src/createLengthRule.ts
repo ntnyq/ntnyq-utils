@@ -30,8 +30,8 @@ export interface LengthRuleOptions extends CommonRuleOptions {
 
 /**
  * create length rule
- * @param field field name
- * @param options options
+ * @param field - field name
+ * @param options - options
  * @returns rule
  */
 export function createLengthRule(field: string, options: LengthRuleOptions): FormItemRule {

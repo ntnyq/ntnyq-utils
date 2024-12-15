@@ -2,16 +2,6 @@
  * @file types
  */
 
-export type Nullable<T> = T | null
-
-export interface Options {
-  prefixKey?: string
-}
-
-export interface ResolvedOptions extends Options {
-  storage: Storage
-}
-
 export interface CreateStorageOptions {
   /**
    * storage instance
@@ -27,4 +17,14 @@ export interface CreateStorageOptions {
    * expire time in seconds
    */
   timeout?: Nullable<number>
+}
+
+export type Nullable<T> = T | null
+
+export interface Options {
+  prefixKey?: string
+}
+
+export interface ResolvedOptions extends Options {
+  storage: Storage
 }

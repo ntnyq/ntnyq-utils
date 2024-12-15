@@ -4,7 +4,7 @@
 
 /**
  * create invalid message
- * @param field field name
+ * @param field - field name
  * @returns message
  */
 export function createInvalidMessage(field: string) {

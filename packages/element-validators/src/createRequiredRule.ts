@@ -18,8 +18,8 @@ export interface RequiredRuleOptions extends CommonRuleOptions {
 
 /**
  * create required rule
- * @param field field name
- * @param options options
+ * @param field - field name
+ * @param options - options
  * @returns rule
  */
 export function createRequiredRule(field: string, options: RequiredRuleOptions = {}): FormItemRule {

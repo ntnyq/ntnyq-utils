@@ -1,9 +1,9 @@
 import { defineBuildConfig } from 'unbuild'
 
 export default defineBuildConfig({
-  entries: ['src/index'],
-  declaration: true,
   clean: true,
+  declaration: true,
+  entries: ['src/index'],
   externals: ['element-plus'],
   rollup: {
     emitCJS: true,

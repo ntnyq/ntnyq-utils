@@ -20,7 +20,7 @@ export function createStorage({
 
     /**
      * Get prefixed storage key
-     * @param key storage key
+     * @param key - storage key
      * @returns prefixed storage key
      */
     #getKey(key: string) {
@@ -29,9 +29,9 @@ export function createStorage({
 
     /**
      * Set cached data by key
-     * @param key storage key
-     * @param value storage value
-     * @param expire expire time, unit: second
+     * @param key - storage key
+     * @param value - storage value
+     * @param expire - expire time, unit: second
      */
     set(key: string, value: any, expire: number | null = timeout) {
       const data = JSON.stringify({
@@ -45,8 +45,8 @@ export function createStorage({
 
     /**
      * Get cached data by key
-     * @param key storage key
-     * @param defaultValue default value
+     * @param key - storage key
+     * @param defaultValue - default value
      * @returns cached value
      */
     get(key: string, defaultValue: any = null) {
@@ -66,7 +66,7 @@ export function createStorage({
 
     /**
      * Remove cached data by key
-     * @param key storage key
+     * @param key - storage key
      */
     remove(key: string) {
       this.#storage.removeItem(this.#getKey(key))

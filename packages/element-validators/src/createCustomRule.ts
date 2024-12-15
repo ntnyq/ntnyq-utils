@@ -14,8 +14,8 @@ export interface CustomRuleOptions<T> extends CommonRuleOptions {
 
 /**
  * create custom rule
- * @param field field name
- * @param options options
+ * @param field - field name
+ * @param options - options
  * @returns rule
  */
 export function createCustomRule<T = string>(

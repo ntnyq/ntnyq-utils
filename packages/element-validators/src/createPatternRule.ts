@@ -17,8 +17,8 @@ interface PatternRuleOptions extends CommonRuleOptions {
 
 /**
  * create pattern rule
- * @param field filed name
- * @param options options
+ * @param field - filed name
+ * @param options - options
  * @returns rule
  */
 export function createPatternRule(field: string, options: PatternRuleOptions): FormItemRule {
