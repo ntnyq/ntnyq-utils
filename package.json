@@ -3,12 +3,10 @@
   "type": "module",
   "version": "0.0.0",
   "private": true,
-  "packageManager": "pnpm@9.15.0",
+  "packageManager": "pnpm@9.15.2",
   "license": "MIT",
   "scripts": {
     "build": "pnpm -r --stream run build",
-    "clean": "rimraf packages/*/dist",
-    "coverage": "vitest --coverage",
     "dev": "pnpm -r --stream run dev",
     "lint": "eslint .",
     "play": "pnpm -C playground run play",
@@ -19,23 +17,20 @@
   },
   "devDependencies": {
     "@changesets/changelog-github": "^0.5.0",
-    "@changesets/cli": "^2.27.10",
-    "@ntnyq/eslint-config": "^3.9.2",
+    "@changesets/cli": "^2.27.11",
+    "@ntnyq/eslint-config": "^3.10.3",
     "@ntnyq/prettier-config": "^1.22.0",
     "@types/node": "^22.10.2",
-    "@vitest/coverage-v8": "^2.1.8",
     "eslint": "^9.17.0",
-    "fs-extra": "^11.2.0",
     "husky": "^9.1.7",
     "nano-staged": "^0.8.0",
-    "npm-run-all2": "^7.0.1",
+    "npm-run-all2": "^7.0.2",
     "picocolors": "^1.1.1",
     "prettier": "^3.4.2",
-    "rimraf": "^6.0.1",
     "tsx": "^4.19.2",
     "typescript": "^5.7.2",
-    "unbuild": "^3.0.1",
-    "vitest": "^2.1.8"
+    "unbuild": "^3.2.0",
+    "vitest": "^3.0.0-beta.3"
   },
   "nano-staged": {
     "*.{js,ts,cjs,mjs,json,md,yml,yaml}": "eslint --fix"
