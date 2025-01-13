@@ -56,6 +56,6 @@
     "@ntnyq/utils": "^0.4.5"
   },
   "devDependencies": {
-    "element-plus": "^2.9.2"
+    "element-plus": "^2.9.3"
   }
 }
