@@ -4,7 +4,10 @@ import type { Options } from './types'
 
 export const WebStorage = create(resolveOptions(sessionStorage))
 
-export const createStorage = (storage: Storage = sessionStorage, options: Options = {}) => {
+export const createStorage = (
+  storage: Storage = sessionStorage,
+  options: Options = {},
+) => {
   return create(resolveOptions(storage, options))
 }
 

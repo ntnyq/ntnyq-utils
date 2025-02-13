@@ -9,7 +9,9 @@ const defaultOptions: LoggerOptions = {
 }
 const defaultTimeFormat = 'YYYY-MM-DD HH:mm:ss'
 
-export function resolveOptions(options?: Partial<LoggerOptions>): LoggerOptions {
+export function resolveOptions(
+  options?: Partial<LoggerOptions>,
+): LoggerOptions {
   if (options?.time === true) {
     options.time = defaultTimeFormat
   }

@@ -1,4 +1,11 @@
-export type LogColor = 'blue' | 'cyan' | 'green' | 'magenta' | 'red' | 'white' | 'yellow'
+export type LogColor =
+  | 'blue'
+  | 'cyan'
+  | 'green'
+  | 'magenta'
+  | 'red'
+  | 'white'
+  | 'yellow'
 
 export type LogColorMap = Record<LogType, LogColor>
 

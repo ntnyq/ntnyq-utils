@@ -4,14 +4,14 @@
 
 export interface CreateStorageOptions {
   /**
-   * storage instance
-   */
-  storage: Storage
-
-  /**
    * storage prefix key
    */
   prefixKey: string
+
+  /**
+   * storage instance
+   */
+  storage: Storage
 
   /**
    * expire time in seconds

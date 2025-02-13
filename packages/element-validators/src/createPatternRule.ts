@@ -21,7 +21,10 @@ interface PatternRuleOptions extends CommonRuleOptions {
  * @param options - options
  * @returns rule
  */
-export function createPatternRule(field: string, options: PatternRuleOptions): FormItemRule {
+export function createPatternRule(
+  field: string,
+  options: PatternRuleOptions,
+): FormItemRule {
   return {
     pattern: options.pattern,
     message: options.message ?? createInvalidMessage(field),

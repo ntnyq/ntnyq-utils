@@ -36,7 +36,9 @@ export const createLogger = (options?: Partial<LoggerOptions>): Logger => {
       const content: string[] = []
 
       if (opts.prefix) content.push(opts.prefix)
-      if (opts.time) content.push(c.magenta(dayjs().format(opts.time as string)))
+      if (opts.time) {
+        content.push(c.magenta(dayjs().format(opts.time as string)))
+      }
       if (opts.type) {
         content.push(c[typeColor](typeName), msg)
       } else {

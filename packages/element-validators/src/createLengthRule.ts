@@ -34,7 +34,10 @@ export interface LengthRuleOptions extends CommonRuleOptions {
  * @param options - options
  * @returns rule
  */
-export function createLengthRule(field: string, options: LengthRuleOptions): FormItemRule {
+export function createLengthRule(
+  field: string,
+  options: LengthRuleOptions,
+): FormItemRule {
   return {
     type: options.type || 'string',
     min: options.min || 0,
