@@ -3,8 +3,8 @@ export * from './types'
 
 export * from './defineFormRules'
 
-export * from './createLengthRule'
 export * from './createCustomRule'
+export * from './createLengthRule'
 export * from './createPatternRule'
 
 export * from './createRequiredRule'
