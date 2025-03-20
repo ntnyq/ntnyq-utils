@@ -3,12 +3,12 @@
   "type": "module",
   "version": "0.0.0",
   "private": true,
-  "packageManager": "pnpm@10.6.1",
+  "packageManager": "pnpm@10.6.5",
   "license": "MIT",
   "scripts": {
     "build": "pnpm -r --stream run build",
     "dev": "pnpm -r --stream run dev",
-    "lint": "eslint .",
+    "lint": "eslint",
     "play": "pnpm -C playground run play",
     "prepare": "husky",
     "publish": "pnpm build && changeset publish",
@@ -18,7 +18,7 @@
   "devDependencies": {
     "@changesets/changelog-github": "^0.5.1",
     "@changesets/cli": "^2.28.1",
-    "@ntnyq/eslint-config": "^4.0.0-beta.12",
+    "@ntnyq/eslint-config": "^4.0.2",
     "@ntnyq/prettier-config": "^2.0.0",
     "@types/node": "^22.13.10",
     "eslint": "^9.22.0",
@@ -30,7 +30,7 @@
     "tsx": "^4.19.3",
     "typescript": "^5.8.2",
     "unbuild": "^3.5.0",
-    "vitest": "^3.0.8"
+    "vitest": "^3.0.9"
   },
   "nano-staged": {
     "*.{js,ts,cjs,mjs,md,yml,yaml,json}": "eslint --fix"
