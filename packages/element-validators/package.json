@@ -43,6 +43,6 @@
     "element-plus": "^2.9.6"
   },
   "dependencies": {
-    "@ntnyq/utils": "^0.6.3"
+    "@ntnyq/utils": "^0.6.4"
   }
 }
