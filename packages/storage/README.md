@@ -4,7 +4,7 @@
 
 ## Install
 
-```bash
+```shell
 pnpm add @ntnyq/storage
 ```
 

@@ -4,7 +4,7 @@
 
 ## Install
 
-```bash
+```shell
 pnpm add element-plus @ntnyq/element-validators
 ```
 
