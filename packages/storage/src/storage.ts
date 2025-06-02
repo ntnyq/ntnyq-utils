@@ -51,7 +51,9 @@ export function createStorage({
      */
     get(key: string, defaultValue: any = null) {
       const val = this.#storage.getItem(this.#getKey(key))
-      if (!val) return defaultValue
+      if (!val) {
+        return defaultValue
+      }
 
       try {
         const { value, expire } = JSON.parse(val)

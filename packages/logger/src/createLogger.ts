@@ -7,7 +7,9 @@ export const createLogger = (options?: Partial<LoggerOptions>): Logger => {
   const opts = resolveOptions(options)
   return {
     debug(msg) {
-      if (opts.mode === 'prod') return
+      if (opts.mode === 'prod') {
+        return
+      }
       this.log('debug', msg)
     },
     success(msg) {
@@ -23,7 +25,9 @@ export const createLogger = (options?: Partial<LoggerOptions>): Logger => {
       this.log('info', msg)
     },
     log(type, msg) {
-      if (!opts.enable) return
+      if (!opts.enable) {
+        return
+      }
       const color: LogColorMap = {
         success: 'green',
         warn: 'yellow',
@@ -35,7 +39,9 @@ export const createLogger = (options?: Partial<LoggerOptions>): Logger => {
       const typeName = `[${type}]`
       const content: string[] = []
 
-      if (opts.prefix) content.push(opts.prefix)
+      if (opts.prefix) {
+        content.push(opts.prefix)
+      }
       if (opts.time) {
         content.push(c.magenta(dayjs().format(opts.time as string)))
       }
