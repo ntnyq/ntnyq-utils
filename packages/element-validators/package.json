@@ -21,13 +21,12 @@
   "exports": {
     "./package.json": "./package.json",
     ".": {
-      "types": "./dist/index.d.mts",
-      "default": "./dist/index.mjs"
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
     }
   },
-  "main": "./dist/index.mjs",
-  "module": "./dist/index.mjs",
-  "types": "./dist/index.d.mts",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "files": [
     "dist"
   ],
@@ -36,13 +35,13 @@
   },
   "sideEffects": false,
   "scripts": {
-    "build": "unbuild",
-    "dev": "unbuild --stub"
+    "build": "tsdown",
+    "dev": "tsdown --watch"
   },
   "peerDependencies": {
     "element-plus": "^2.9.6"
   },
   "dependencies": {
-    "@ntnyq/utils": "^0.7.0"
+    "@ntnyq/utils": "^0.7.1"
   }
 }

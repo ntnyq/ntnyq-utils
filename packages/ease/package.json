@@ -1,5 +1,5 @@
 {
-  "name": "@ntnyq/storage",
+  "name": "@ntnyq/ease",
   "type": "module",
   "version": "0.1.0",
   "description": "",
@@ -13,7 +13,7 @@
   "repository": {
     "type": "git",
     "url": "ntnyq/ntnyq-utils",
-    "directory": "packages/storage"
+    "directory": "packages/ease"
   },
   "bugs": {
     "url": "https://github.com/ntnyq/ntnyq-utils/issues"
