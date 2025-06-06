@@ -18,6 +18,8 @@ pnpm add @ntnyq/ease
 
 ## Usage
 
+**TODO**
+
 ## Credits
 
 - [easings.net](https://easings.net)
