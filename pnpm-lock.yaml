@@ -62,8 +62,8 @@ importers:
   packages/element-validators:
     dependencies:
       '@ntnyq/utils':
-        specifier: ^0.7.1
-        version: 0.7.1
+        specifier: ^0.7.2
+        version: 0.7.2
       element-plus:
         specifier: ^2.9.6
         version: 2.9.10(vue@3.5.14(typescript@5.8.3))
@@ -538,8 +538,8 @@ packages:
     resolution: {integrity: sha512-sjCzIYGXvRRuwN37twCVjszeDTfPtDE3hQ+vT/orH9Xo0ubKQDEA+HsyTewN1vo3ao0Kl3DGpsgPJ4nxy+nyvQ==}
     engines: {node: '>=18.18.0'}
 
-  '@ntnyq/utils@0.7.1':
-    resolution: {integrity: sha512-dGFTey6JMoPfwG+l/J8MUeN68CPhBqc97Ehf7svSA4yXqWkDygyuwXlhBji/q8tbpbHtKxRVwAlLm/fsNrrXIQ==}
+  '@ntnyq/utils@0.7.2':
+    resolution: {integrity: sha512-E2knEJCRxBhPGj0sTQ7X1Xs0BTfgCAEfaiXS76MQXKRpaHV7BZUCAqRBnwA+ZdVqc0ZL4R2L2crlrb3uBW+dFQ==}
     engines: {node: '>=18.18.0'}
 
   '@oxc-project/runtime@0.72.2':
@@ -3404,7 +3404,7 @@ snapshots:
 
   '@ntnyq/utils@0.6.5': {}
 
-  '@ntnyq/utils@0.7.1': {}
+  '@ntnyq/utils@0.7.2': {}
 
   '@oxc-project/runtime@0.72.2': {}
 
