@@ -1,5 +1,17 @@
 # @ntnyq/element-validators
 
+## 0.2.0
+
+### Minor Changes
+
+- [`01b2e19`](https://github.com/ntnyq/ntnyq-utils/commit/01b2e196910be1c029a1d3628acdc4b4d35595cd) Thanks [@ntnyq](https://github.com/ntnyq)! - fix: fix missing dist
+
+### Patch Changes
+
+- [`f02f535`](https://github.com/ntnyq/ntnyq-utils/commit/f02f535db5767f5fced94e475d64e64a6bac7ea5) Thanks [@ntnyq](https://github.com/ntnyq)! - fix: upgrade deps
+
+- [`d2140dd`](https://github.com/ntnyq/ntnyq-utils/commit/d2140dd65222e0b794623ecdb2d3ca6edb2b49dd) Thanks [@ntnyq](https://github.com/ntnyq)! - fix: upgrade deps
+
 ## 0.1.0
 
 ### Minor Changes
