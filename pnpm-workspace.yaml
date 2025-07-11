@@ -1,10 +1,6 @@
 packages:
   - packages/*
   - playground
-
-overrides:
-  esbuild: ^0.25.5
-
 onlyBuiltDependencies:
   - esbuild
   - unrs-resolver

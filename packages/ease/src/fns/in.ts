@@ -1,8 +1,8 @@
 /**
  * easeInSine
  *
- * @param x
- * @returns
+ * @param x - The input value, typically in the range [0, 1]
+ * @returns - The eased value
  *
  * @see {@link https://easings.net/#easeInSine}
  */
