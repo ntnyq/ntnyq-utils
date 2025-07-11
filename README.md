@@ -8,7 +8,6 @@ Utils for ntnyq.
 
 - [logger](./packages/logger)
 - [storage](./packages/storage)
-- [types](./packages/types)
 - [ease](./packages/ease)
 - [element-validators](./packages/element-validators)
 
