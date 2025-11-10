@@ -39,7 +39,7 @@
     "dev": "tsdown --watch"
   },
   "dependencies": {
-    "dayjs": "^1.11.18",
+    "dayjs": "^1.11.19",
     "picocolors": "^1.1.1"
   }
 }
