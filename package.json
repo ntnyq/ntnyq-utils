@@ -3,7 +3,7 @@
   "type": "module",
   "version": "0.0.0",
   "private": true,
-  "packageManager": "pnpm@10.25.0",
+  "packageManager": "pnpm@10.26.1",
   "license": "MIT",
   "scripts": {
     "build": "pnpm -r --stream run build",
@@ -30,10 +30,10 @@
     "npm-run-all2": "^8.0.4",
     "picocolors": "^1.1.1",
     "prettier": "^3.7.4",
-    "tsdown": "^0.17.2",
+    "tsdown": "^0.18.2",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3",
-    "vitest": "^4.0.15"
+    "vitest": "^4.0.16"
   },
   "nano-staged": {
     "*.{js,ts,cjs,mjs,md,yml,yaml,json}": "eslint --fix"
