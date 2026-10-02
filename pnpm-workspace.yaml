@@ -1,7 +1,12 @@
 packages:
   - packages/*
   - playground
-onlyBuiltDependencies:
-  - esbuild
-  - unrs-resolver
-  - vue-demi
+
+allowBuilds:
+  esbuild: true
+  unrs-resolver: true
+  vue-demi: true
+
+ignoreWorkspaceRootCheck: true
+
+pmOnFail: warn
